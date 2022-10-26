@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
     var sign = Math.cosh(z);
     var tanh = Math.tanh(k);
     var trunc = Math.trunc(k);
-    res.render('computation', { title: Lakshmi Mupparaju Computing functions,
+    res.render('computation', { title: 'Lakshmi Mupparaju Computing functions',
     x: x,
     y: y,
     z: z,
